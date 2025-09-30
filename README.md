@@ -2,7 +2,9 @@
 # 🧠 BRATS 2020 Brain Tumor Segmentation with MONAI
 
 This repository contains a **baseline 3D UNet pipeline** built using [MONAI](https://monai.io/) for the **BRATS 2020 dataset**.  
-It demonstrates preprocessing, training, and visualization workflows for multi-class brain tumor segmentation.  
+It demonstrates preprocessing, training, and visualization workflows for multi-class brain tumor segmentation. 
+
+kaggle Project link:https://www.kaggle.com/code/hassassinsp/monaithon-2k25-brats
 
 ---
 
@@ -82,7 +84,7 @@ We also visualized segmented brain tumors in **3D** using [3D Slicer](https://ww
 This provides an intuitive view of tumor location, size, and spread across the brain volume.
 
 ffmpeg -i "3D tumor.mp4" -vf "fps=10,scale=600:-1:flags=lanczos" -c:v gif "3D_tumor.gif"
-![3D Tumor](assets/3D_tumor.gif)
+![3D Tumor](assets/3D tumor.gif)
 
 
 *(Above: Flair MRI with tumor segmentation overlay in 3D space)*
