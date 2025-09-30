@@ -81,7 +81,9 @@ print("MONAI:", monai.__version__)
 We also visualized segmented brain tumors in **3D** using [3D Slicer](https://www.slicer.org/).  
 This provides an intuitive view of tumor location, size, and spread across the brain volume.
 
-<video src="assets/3D tumor.mp4" controls autoplay loop width="600"></video>
+ffmpeg -i "3D tumor.mp4" -vf "fps=10,scale=600:-1:flags=lanczos" -c:v gif "3D_tumor.gif"
+![3D Tumor](assets/3D_tumor.gif)
+
 
 *(Above: Flair MRI with tumor segmentation overlay in 3D space)*
 ---
