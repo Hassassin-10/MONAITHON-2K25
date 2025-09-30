@@ -90,7 +90,7 @@ We also visualized segmented brain tumors in **3D** using [3D Slicer](https://ww
 This provides an intuitive view of tumor location, size, and spread across the brain volume.
 
 
-![3D Tumor](assets/3D tumor.gif)
+![3D Tumor](assets/3D_tumor.gif)
 
 ## _(Above: Flair MRI with tumor segmentation overlay in 3D space)_
 
